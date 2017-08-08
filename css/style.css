@@ -2207,3 +2207,13 @@ src: local('OptimusPrincepsSemiBold'), url('OptimusPrincepsSemiBold.woff') forma
 .blog-turra h2{
 		margin-bottom: 1.5em;
 	}
+
+	.lista-blog{
+	font-size: 1em;
+	background-color: #C5D9E5;
+	margin: 0 auto;
+	padding: 1.2em;
+	list-style-type: none;
+	max-width: 500px;
+	border-radius: 10px;
+}

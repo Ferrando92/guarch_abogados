@@ -240,7 +240,7 @@
                 <div class="caption">
                   <h3>Matrimonial</h3>
                   <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Matrimonial')">Consultar</a>
+                  <a class="btn btn-default btn-md" href="divorcio-valencia" role="button">Mas información</a>
               </div>
             </div>
           </div>
