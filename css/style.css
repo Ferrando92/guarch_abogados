@@ -22,9 +22,7 @@
 
 	border-radius: 10px;
 }
-.texto-contacto{
 
-}
 .lista-contacto{
 	font-size: 1.2em;
 	margin-top: 2em;
@@ -340,6 +338,10 @@ nav a:hover, nav a:focus {
 
 .about {
 	padding: 75px 0;
+	font-size:17px;
+  color:#032F3E;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .about-grid {

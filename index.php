@@ -189,13 +189,13 @@
           </div>
         </div>
       </div>
-      <div class="about" id="sobre-nosotros" style="color:#032F3E;">
+      <div class="about" id="sobre-nosotros">
         <div class="container">
           <h2 style="padding:2em;"> Sobre Nosotros </h2>
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
             <img src="images/00130.gif" alt="Guarch Abogados sala de reuniones"/>
           </div>
-          <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:8px; color:#032F3E; letter-spacing: 2px;">
+          <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
               <p><span itemprop="name" itemprop="name">Guarch Abogados</span> es un despacho de abogados multidisciplinar localizado en el centro de Valencia.<br>
                 Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
@@ -206,6 +206,7 @@
                 Por ultimo, darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
                 Esperamos poder contar en breve con su confianza.
               </p>
+              <a class="btn btn-default btn-lg blog-btn" href="/abogados-valencia">Mas Información</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
@@ -367,49 +368,42 @@
       <div class="footer">
         <div class="container">
           <div class="footer-info">
-            <div class="col-md-4 col-sm-4 footer-info-grid links">
+            <div class="col-xs-12  col-md-4 footer-info-grid links">
               <h4>ENCUÉNTRANOS</h4>
-              <ul>
-                <div class="contact-bottom" style="padding-bottom:2em">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.922478917067!2d-0.381466084632598!3d39.471079979486206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c85b2e1%3A0x26ea0be400a35866!2sGuarch+Abogados+-+Valencia!5e0!3m2!1ses!2ses!4v1501970684973"  frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-              </ul>
+              <div class="contact-bottom">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.922478917067!2d-0.381466084632598!3d39.471079979486206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c85b2e1%3A0x26ea0be400a35866!2sGuarch+Abogados+-+Valencia!5e0!3m2!1ses!2ses!4v1501970684973"  frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-4 footer-info-grid address">
+            <div class="col-xs-12 col-md-4 footer-info-grid address">
               <h4>DIRECCIÓN</h4>
-              <address>
+              <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <ul>
-                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <li itemprop="streetAddress">
-                      <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
-                      <br/> 1er Piso, 2ª Puerta </span>
-                    </li>
-                    <li>
-                      <span itemprop="postalCode" itemprop="postalCode"> 46001</span>
-                      <span itemprop="addressLocality">Valencia</span>,
-                      <span itemprop="addressCountry">España</span>
-                    </li>
-                    <li>
-                      Teléfono: <span itemprop="telephone" itemprop="telephone">+34 961 047 508</span>
-                    </li>
-                  </div>
+                  <li itemprop="streetAddress">
+                    <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
+                    <br/> 1er Piso, 2ª Puerta </span>
+                  </li>
+                  <li>
+                    <span itemprop="postalCode" itemprop="postalCode"> 46001</span>
+                    <span itemprop="addressLocality">Valencia</span>,
+                    <span itemprop="addressCountry">España</span>
+                  </li>
+                  <li>
+                    Teléfono: <span itemprop="telephone" itemprop="telephone">+34 961 047 508</span>
+                  </li>
                 </ul>
               </address>
             </div>
-            <div class="col-md-4 col-sm-4 footer-info-grid newsletter">
-              <div class="container" id="especialidades">
-                <h4>CONTÁCTANOS</h4>
-                <p>Puedes enviarnos un correo a nuestro correo electronico:
-                </p>
-                <li>
-                  Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
-                </li>
-                <li>
-                  <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
-                  <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png"></a>
-                  <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png"></a>
-                </li>
-              </div>
+            <div class="col-xs-12 col-md-4  footer-info-grid newsletter">
+              <h4>CONTÁCTANOS</h4>
+              <p>Puedes enviarnos un correo a nuestro correo electronico: </p>
+              <li>
+                Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
+              </li>
+              <li>
+                <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
+                <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png"></a>
+                <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png"></a>
+              </li>
             </div>
             <div class="SeoHiddenData">
               <span itemprop="url">http://www.guarchabogados.com</span>
@@ -422,7 +416,6 @@
                 <span itemprop="name">Alberto Guarch</span>
               </span>
             </div>
-            <div class="clearfix"></div>
             <div class="col-md-12 col-sm-12 footer-info-grid">
               <p style="text-align: center"> © 2017
                 <span itemprop="url">Guarchabogados.com</span>, Todos los derechos reservados.
