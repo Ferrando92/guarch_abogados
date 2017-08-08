@@ -2158,11 +2158,26 @@ src: local('OptimusPrincepsSemiBold'), url('OptimusPrincepsSemiBold.woff') forma
 /****BLOG*****/
 .business-header {
     height: 400px;
-    background: url('../images/cabecera_blog1.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.header-type-one{
+  background: url('../images/cabecera_blog1.png') center center no-repeat scroll;
+}
+.header-type-two{
+  background: url('../images/cabecera_blog2.png') center center no-repeat scroll;
+}
+.header-type-three{
+  background: url('../images/cabecera_blog3.png') center center no-repeat scroll;
+}
+.header-type-four{
+  background: url('../images/cabecera_blog4.png') center center no-repeat scroll;
+}
+.header-type-five{
+  background: url('../images/cabecera_blog5.png') center center no-repeat scroll;
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */

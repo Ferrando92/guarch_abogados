@@ -134,10 +134,10 @@
           </div>
           <div class="navbar-collapse collapse" id="navbar">
             <ul>
-              <li class="navItem"><a href="#sobre-nosotros"><span data-hover="NOSOTROS">NOSOTROS</span></a></li>
-              <li class="navItem"><a href="#especialidades"><span data-hover="ESPECIALIDADES">ESPECIALIDADES</span></a></li>
-              <li class="navItem"><a href="#localizacion"><span data-hover="LOCALIZACIÓN">LOCALIZACIÓN</span></a></li>
-              <li class="navItem"><a href="#contacto"><span data-hover="CONTACTO">CONTACTO</span></a></li>
+              <li class="navItem"><a href="abogados-valencia"><span data-hover="NOSOTROS">NOSOTROS</span></a></li>
+              <li class="navItem"><a href="especialidades"><span data-hover="ESPECIALIDADES">ESPECIALIDADES</span></a></li>
+              <li class="navItem"><a href="index.php#localizacion"><span data-hover="LOCALIZACIÓN">LOCALIZACIÓN</span></a></li>
+              <li class="navItem"><a href="index.php#contacto"><span data-hover="CONTACTO">CONTACTO</span></a></li>
               <!-- <li><a href="#features"><span data-hover="FEATURES">FEATURES</span></a></li>
                 <li><a href="#gallery"><span data-hover="GALLERY">GALLERY</span></a></li>
                 <li><a href="#team"><span data-hover="TEAM">TEAM</span></a></li>
