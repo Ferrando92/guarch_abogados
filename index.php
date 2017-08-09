@@ -90,6 +90,40 @@
         "image": "http://guarchabogados.com/images/logo.png"
       }
     </script>
+    <script type="text/javascript">
+    function mail_con_asunto(tema) {
+        $("#asunto_mail").val("Consulta " +tema);
+        $("textarea#consulta_mail").focus();
+    }
+    $("#formulario").submit(function(e) {
+      var url = "mail.php";
+
+      $.ajax({
+              type: "POST",
+              url: url,
+              data: $("#formulario").serialize(),
+              success: function(data)
+              {
+                  $("#before_send_email").hide();
+                  $("#meanwhile_send_email").show();
+                  setTimeout(function () {
+                    $("#meanwhile_send_email").hide();
+                    $("#after_send_email").show();
+                  }, 3000);
+              }
+            });
+
+      e.preventDefault();
+    });
+
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none");
+    });
+    </script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
@@ -119,7 +153,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css"/>
     <link href="//fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
     <!--  //Web-Fonts  -->
-    <div itemscope itemtype="http://schema.org/LocalBusiness" itemtype="http://schema.org/LegalService">
+    <div itemscope itemtype="http://schema.org/LegalService">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -129,7 +163,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
+            <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal">
             GUARCH <span style="font-size:29px; color:#575757">  |  ABOGADOS</span></a></h1>
           </div>
           <div class="navbar-collapse collapse" id="navbar">
@@ -160,31 +194,25 @@
           <div class="item slides active">
             <div class="slide-1"></div>
             <div class="hero">
-              <hgroup>
-                <img itemprop="logo" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h2>Sus abogados en Valencia</h2>
-              </hgroup>
-              <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Consúltanos gratis</button></a>
+              <img itemprop="logo" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
+              <h2>Sus abogados en Valencia</h2>
+              <a href="#contacto" class="btn btn-hero btn-lg">Consúltanos gratis</a>
             </div>
           </div>
           <div class="item slides">
             <div class="slide-2"></div>
             <div class="hero">
-              <hgroup>
-                <img itemprop="image" itemprop="image" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h2>Despacho multidisciplinar</h2>
-              </hgroup>
-              <a href="#localizacion"> <button class="btn btn-hero btn-lg" role="button">Nuestras oficinas</button></a>
+              <img itemprop="image" itemprop="image" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
+              <h2>Despacho multidisciplinar</h2>
+              <a href="#localizacion" class="btn btn-hero btn-lg">Nuestras oficinas</a>
             </div>
           </div>
           <div class="item slides">
             <div class="slide-3"></div>
             <div class="hero">
-              <hgroup>
-                <img style="max-width: 100% ; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h2>Consúltanos gratis</h2>
-              </hgroup>
-              <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Ir al formulario</button></a>
+              <img style="max-width: 100% ; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
+              <h2>Consúltanos gratis</h2>
+              <a href="#contacto" class="btn btn-hero btn-lg">Ir al formulario</a>
             </div>
           </div>
         </div>
@@ -197,7 +225,7 @@
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
-              <p><span itemprop="name" itemprop="name">Guarch Abogados</span> es un despacho de abogados multidisciplinar localizado en el centro de Valencia.<br>
+              <p><span itemprop="name">Guarch Abogados</span> es un despacho de abogados multidisciplinar localizado en el centro de Valencia.<br>
                 Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
                 <br>
                 <p> Estaremos encatados de atender y resolver <a href='#contacto'>cualquier consulta o duda que nos quiera plantear</a>.</p>
@@ -225,44 +253,44 @@
         <div class="row">
         <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/4.png" rel="nofollow" alt="Clausula suelo">
+              <img src="images/icons/4.png" alt="Clausula suelo">
                 <div class="caption">
                   <h3>Cláusula suelo</h3>
                   <p class="card-text">
                   Desde el despacho le llevamos su reclamación de la <strong>cláusula suelo</strong> así como todas las clausulas nulas de su hipoteca.<br> Nuestros abogados solo cobrarían si usted cobra</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
               </div>
             </div>
           </div>
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/8.png" rel="nofollow" alt="Derecho matrimonial icono">
+              <img src="images/icons/8.png" alt="Derecho matrimonial icono">
                 <div class="caption">
                   <h3>Matrimonial</h3>
                   <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
-                  <a class="btn btn-default btn-md" href="divorcio-valencia" role="button">Mas información</a>
+                  <a class="btn btn-default btn-md" href="divorcio-valencia">Mas información</a>
               </div>
             </div>
           </div>
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/11.png" rel="nofollow" alt="Derecho penal icono">
+              <img src="images/icons/11.png" alt="Derecho penal icono">
                 <div class="caption">
                   <h3>Penal</h3>
                   <p class="card-text">Nuestros abogados le otorgarán <strong>asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Penal')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Penal')">Consultar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/6.png" rel="nofollow" alt="Derecho laboral icono">
+              <img src="images/icons/6.png" alt="Derecho laboral icono">
                 <div class="caption">
                   <h3>Laboral</h3>
                   <p class="card-text">Desde el despacho le ayudaremos en sus reclamaciones como la indemnización por despido ante la jurisdicción Social o <strong>la reclamación de lesiones</strong>.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Laboral')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Laboral')">Consultar</a>
               </div>
             </div>
           </div>
@@ -271,55 +299,55 @@
         <div class="row">
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
+              <img src="images/icons/12.png" alt="Derecho civil icono">
                 <div class="caption">
                   <h3>Civil</h3>
                   <p class="card-text">Nuestros abogados son conocedores de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Civil')">Consultar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
+              <img src="images/icons/10.png" alt="Impagos icono">
                 <div class="caption">
                   <h3>Impagos</h3>
                   <p class="card-text">El despacho le garantiza el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Impagos')">Consultar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
+              <img src="images/icons/13.png" alt="Accidentes de Trafico icono">
                 <div class="caption">
                   <h3  style="margin-top: -15px;">Accidentes de Tráfico</h3>
                   <p class="card-text">Despacho especializado durante más de veinte años en <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica durante el procedimiento.</p>
-                  <a class="btn btn-default btn-md" style="margin-top: 0px;" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
+                  <a class="btn btn-default btn-md" style="margin-top: 0px;" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
               </div>
             </div>
           </div>
           <!--/Patrimonial
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
+              <img src="images/icons/4.png" alt="Derecho patrimonial icono">
                 <div class="caption">
                   <h3>Patrimonial</h3>
                   <p class="card-text">Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
               </div>
             </div>
           </div>-->
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
+              <img src="images/icons/3.png" alt="Derecho familiar icono">
                 <div class="caption">
                   <h3>Familiar</h3>
                   <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
+                  <a class="btn btn-default btn-md" onclick="mail_con_asunto('Familiar')">Consultar</a>
               </div>
             </div>
           </div>
@@ -356,7 +384,7 @@
         <div id="meanwhile_send_email" style="display: none;">
           <h2>Enviando</h2>
           <hr>
-          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" max-width="50px" height="50px" />
+          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" width="50px" height="50px" />
         </div>
         <div id="after_send_email" style="display: none;">
           <img src="images/logo.png" alt="Guarch Abogados">
@@ -379,16 +407,16 @@
               <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <ul>
                   <li itemprop="streetAddress">
-                    <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
+                    <span itemprop="streetAddress"> Calle Garrigues nº17
                     <br/> 1er Piso, 2ª Puerta </span>
                   </li>
                   <li>
-                    <span itemprop="postalCode" itemprop="postalCode"> 46001</span>
+                    <span itemprop="postalCode"> 46001</span>
                     <span itemprop="addressLocality">Valencia</span>,
                     <span itemprop="addressCountry">España</span>
                   </li>
                   <li>
-                    Teléfono: <span itemprop="telephone" itemprop="telephone">+34 961 047 508</span>
+                    Teléfono: <span itemprop="telephone" >+34 961 047 508</span>
                   </li>
                 </ul>
               </address>
@@ -397,7 +425,7 @@
               <h4>CONTÁCTANOS</h4>
               <p>Puedes enviarnos un correo a nuestro correo electronico: </p>
               <li>
-                Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
+                Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
               </li>
               <li>
                 <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
@@ -428,38 +456,3 @@
     </div>
   </body>
 </html>
-
-<script type="text/javascript">
-function mail_con_asunto(tema) {
-    $("#asunto_mail").val("Consulta " +tema);
-    $("textarea#consulta_mail").focus();
-}
-$("#formulario").submit(function(e) {
-  var url = "mail.php";
-
-  $.ajax({
-          type: "POST",
-          url: url,
-          data: $("#formulario").serialize(),
-          success: function(data)
-          {
-              $("#before_send_email").hide();
-              $("#meanwhile_send_email").show();
-              setTimeout(function () {
-                $("#meanwhile_send_email").hide();
-                $("#after_send_email").show();
-              }, 3000);
-          }
-        });
-
-  e.preventDefault();
-});
-
-$('.maps').click(function () {
-    $('.maps iframe').css("pointer-events", "auto");
-});
-
-$( ".maps" ).mouseleave(function() {
-  $('.maps iframe').css("pointer-events", "none");
-});
-</script>

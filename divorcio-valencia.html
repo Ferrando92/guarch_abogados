@@ -90,6 +90,40 @@
         "image": "http://guarchabogados.com/images/logo.png"
       }
     </script>
+    <script type="text/javascript">
+    function mail_con_asunto(tema) {
+        $("#asunto_mail").val("Consulta " +tema);
+        $("textarea#consulta_mail").focus();
+    }
+    $("#formulario").submit(function(e) {
+      var url = "mail.php";
+
+      $.ajax({
+              type: "POST",
+              url: url,
+              data: $("#formulario").serialize(),
+              success: function(data)
+              {
+                  $("#before_send_email").hide();
+                  $("#meanwhile_send_email").show();
+                  setTimeout(function () {
+                    $("#meanwhile_send_email").hide();
+                    $("#after_send_email").show();
+                  }, 3000);
+              }
+            });
+
+      e.preventDefault();
+    });
+
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none");
+    });
+    </script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
@@ -116,7 +150,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css"/>
     <link href="//fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css"/>
     <!--  //Web-Fonts  -->
-    <div itemscope itemtype="http://schema.org/LocalBusiness" itemtype="http://schema.org/LegalService">
+    <div itemscope itemtype="http://schema.org/LegalService">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -126,7 +160,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
+            <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal">
             GUARCH <span style="font-size:29px; color:#575757">  |  ABOGADOS</span></a></h1>
           </div>
           <div class="navbar-collapse collapse" id="navbar">
@@ -155,7 +189,7 @@
           </div>
       </header>
         <div class="row">
-            <div class="col-sm-12 blog-turra"">
+            <div class="col-sm-12 blog-turra">
                 <h2>Abogados divorcio Valencia</h2>
                 <p><strong>Guarch Abogados</strong> es un despacho multidisciplicar y entre sus especialidades se encuentran el <strong>Derecho Matrimonial</strong> y en concreto los <strong>Divorcios</strong></p>
                 <p>Nuestros <strong>abogados de familia</strong> son especialistas en la tramitación de todo tipo de divorcios: Divorcio con hijos, Divorcio contencioso, <strong>divorcio de mutuo acuerdo</strong>, modificación de medidas, demanda ejecutiva, liquidación de sociedad de gananciales diferencia entre separación y divorcio.</p>
@@ -213,7 +247,7 @@
         <div id="meanwhile_send_email" style="display: none;">
           <h2>Enviando</h2>
           <hr>
-          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" max-width="50px" height="50px" />
+          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" width="50px" height="50px" />
         </div>
         <div id="after_send_email" style="display: none;">
           <img src="images/logo.png" alt="Guarch Abogados">
@@ -229,44 +263,7 @@
 
                 </div>
             </div>
-            <!-- /.row -->
         </footer>
-
     </div>
-    <!-- /.container -->
   </body>
 </html>
-<script type="text/javascript">
-function mail_con_asunto(tema) {
-    $("#asunto_mail").val("Consulta " +tema);
-    $("textarea#consulta_mail").focus();
-}
-$("#formulario").submit(function(e) {
-  var url = "mail.php";
-
-  $.ajax({
-          type: "POST",
-          url: url,
-          data: $("#formulario").serialize(),
-          success: function(data)
-          {
-              $("#before_send_email").hide();
-              $("#meanwhile_send_email").show();
-              setTimeout(function () {
-                $("#meanwhile_send_email").hide();
-                $("#after_send_email").show();
-              }, 3000);
-          }
-        });
-
-  e.preventDefault();
-});
-
-$('.maps').click(function () {
-    $('.maps iframe').css("pointer-events", "auto");
-});
-
-$( ".maps" ).mouseleave(function() {
-  $('.maps iframe').css("pointer-events", "none");
-});
-</script>
