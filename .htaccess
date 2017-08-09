@@ -1,5 +1,7 @@
 RewriteBase /
 RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{3,4}
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule ^(.*)$ $1.html
