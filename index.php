@@ -5,6 +5,8 @@
     <meta name="google-site-verification" content="O5q5ZdeoEInRt6jL98cE7SFoS-5uL1boGcj95082_-0"/>
     <title>Guarch Abogados | Despacho de abogados en Valencia, consulta gratuita.</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="language" content="Spanish">
+    <meta http-equiv="content-language" content="es">
     <meta name="title" content="Guarch Abogados Valencia consulta gratuita."/>
     <meta name="description" content="Despacho de abogados en Valencia con amplia experiencia. Atendemos su reclamación de clausula suelo, divorcio, accidentes de trafico... Consulta gratuita."/>
     <meta name="keywords" content="abogados, Despacho abogados Valencia, abogados experiencia, abogado divorcio, abogado trafico, abogado lesiones, abogado derecho familia, abogado penal, abogado inmobiliario, abogado laboral abogado administrativo, abogado nulidad matrimonial"/>
@@ -195,7 +197,7 @@
             <div class="slide-1"></div>
             <div class="hero">
               <img itemprop="logo" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-              <h2>Sus abogados en Valencia</h2>
+              <h2>Sus abogados en <strong>Valencia</strong></h2>
               <a href="#contacto" class="btn btn-hero btn-lg">Consúltanos gratis</a>
             </div>
           </div>
@@ -203,16 +205,16 @@
             <div class="slide-2"></div>
             <div class="hero">
               <img itemprop="image" itemprop="image" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-              <h2>Despacho multidisciplinar</h2>
-              <a href="#localizacion" class="btn btn-hero btn-lg">Nuestras oficinas</a>
+              <h2><strong>Abogados Especialistas</strong></h2>
+              <a href="especialidades" class="btn btn-hero btn-lg">Nuestras especialidades</a>
             </div>
           </div>
           <div class="item slides">
             <div class="slide-3"></div>
             <div class="hero">
               <img style="max-width: 100% ; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-              <h2>Consúltanos gratis</h2>
-              <a href="#contacto" class="btn btn-hero btn-lg">Ir al formulario</a>
+              <h2>Te ayudamos con tu <strong>Divorcio</strong></h2>
+              <a href="divorcio-valencia" class="btn btn-hero btn-lg">Consultar</a>
             </div>
           </div>
         </div>
@@ -225,8 +227,8 @@
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
-              <p><span itemprop="name">Guarch Abogados</span> es un despacho de abogados multidisciplinar localizado en el centro de Valencia.<br>
-                Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
+              <p><strong><span itemprop="name">Guarch Abogados</span></strong> es un despacho de abogados multidisciplinar localizado en el centro de <strong>Valencia</strong>.<br>
+                Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de <strong>accidentes de tráfico</strong>, <strong>divorcios</strong>, <strong>extranjeria</strong>, <strong>reclamaciones de clausula suelo</strong>, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
                 <br>
                 <p> Estaremos encatados de atender y resolver <a href='#contacto'>cualquier consulta o duda que nos quiera plantear</a>.</p>
                 <br>
