@@ -43,9 +43,8 @@
         "name": "Guarch Abogados",
         "url": "http://www.guarchabogados.com/",
         "telephone" : "+34 961 047 508",
-        "email" : "contacto@guarchabogados.com",
+        "email": "contacto@guarchabogados.com",
         "logo": "http://www.guarchabogados.com/images/logo-min.png",
-        "image": "http://www.guarchabogados.com/images/logo.png",
         "address": {
           "@type": "PostalAddress",
           "addressCountry":"Spain",
@@ -61,32 +60,20 @@
           "url":"http://www.guarchabogados.com"
         },
         "geo":{
-          "@type":"GeoCoordinates",
-          "latitude":39.4688062,
-          "longitude":-0.374473
+        "@type":"GeoCoordinates",
+        "latitude":39.4688062,
+        "longitude":-0.374473
         },
-        "openingHoursSpecification": [{
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "09:00",
-          "closes": "20:00"
-        }],
         "alternateName":"Guarch Abogados Valencia",
         "alumni": [
-            {
-              "@type": "Person",
-              "name": "Ricardo Guarch"
-            },
-            {
-              "@type": "Person",
-              "name": "Alberto Guarch"
-            }
+        {
+        "@type": "Person",
+        "name": "Ricardo Guarch"
+        },
+        {
+        "@type": "Person",
+        "name": "Alberto Guarch"
+        }
         ],
         "brand":"Guarch abogados",
         "image": "http://www.guarchabogados.com/images/logo.png"
