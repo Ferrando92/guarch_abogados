@@ -3,22 +3,22 @@
 <html class=" js csstransitions">
   <head>
     <meta name="google-site-verification" content="O5q5ZdeoEInRt6jL98cE7SFoS-5uL1boGcj95082_-0"/>
-    <title>Guarch Abogados | Despacho de abogados en Valencia</title>
+    <title>Guarch Abogados | Despacho de abogados en Valencia, consulta gratuita.</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="title" content="Guarch Abogados | Despacho de abogados en Valencia"/>
-    <meta name="description" content="Despacho de abogados en Valencia con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
+    <meta name="title" content="Guarch Abogados Valencia consulta gratuita."/>
+    <meta name="description" content="Despacho de abogados en Valencia con amplia experiencia. Atendemos su reclamación de clausula suelo, divorcio, accidentes de trafico... Consulta gratuita."/>
     <meta name="keywords" content="abogados, Despacho abogados Valencia, abogados experiencia, abogado divorcio, abogado trafico, abogado lesiones, abogado derecho familia, abogado penal, abogado inmobiliario, abogado laboral abogado administrativo, abogado nulidad matrimonial"/>
-    <meta name="owner" content="guarchabogados.com"/>
+    <meta name="owner" content="www.guarchabogados.com"/>
     <meta name="geo.region" content="ES-VC" />
     <meta name="geo.placename" content="Valencia" />
     <meta name="geo.position" content="39.470941;-0.378796" />
     <meta name="ICBM" content="39.470941, -0.378796" />
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.guarchabogados.com/index.php"/>
+    <meta property="og:url" content="http://www.guarchabogados.com"/>
     <meta property="og:title" content="Guarch Abogados Valencia"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:description" content="Bufete localizado en Valencia con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
-    <meta property="og:image" content="http://guarchabogados.com/images/logo.png"/>
+    <meta property="og:image" content="http://www.guarchabogados.com/images/logo.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
@@ -42,8 +42,8 @@
         "url": "http://www.guarchabogados.com/",
         "telephone" : "+34 961 047 508",
         "email" : "contacto@guarchabogados.com",
-        "logo": "http://guarchabogados.com/images/logo-min.png",
-        "image": "http://guarchabogados.com/images/logo.png",
+        "logo": "http://www.guarchabogados.com/images/logo-min.png",
+        "image": "http://www.guarchabogados.com/images/logo.png",
         "address": {
           "@type": "PostalAddress",
           "addressCountry":"Spain",
@@ -56,7 +56,7 @@
           "postalCode":"46001",
           "streetAddress":"Calle Garrigues nº17, 1er Piso, 2ª Puerta",
           "telephone":"+34 961 047 508",
-          "url":"http://www.guarchabogados.com/"
+          "url":"http://www.guarchabogados.com"
         },
         "geo":{
           "@type":"GeoCoordinates",
@@ -75,7 +75,7 @@
           "opens": "09:00",
           "closes": "20:00"
         }],
-        "alternateName":"Guarch Abogados valencia",
+        "alternateName":"Guarch Abogados Valencia",
         "alumni": [
             {
               "@type": "Person",
@@ -87,7 +87,7 @@
             }
         ],
         "brand":"Guarch abogados",
-        "image": "http://guarchabogados.com/images/logo.png"
+        "image": "http://www.guarchabogados.com/images/logo.png"
       }
     </script>
     <script type="text/javascript">
@@ -221,7 +221,7 @@
         <div class="container">
           <h2 style="padding:2em;"> Sobre Nosotros </h2>
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
-            <img src="images/00130.gif" alt="Guarch Abogados sala de reuniones"/>
+            <img src="images/00130.gif" alt="Guarch Abogados extranjeria"/>
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
@@ -238,7 +238,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
-            <img src="images/00110.gif" alt="Guarch Abogados sala de espera"/>
+            <img src="images/00110.gif" alt="Abogados Valencia consulta"/>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -264,7 +264,7 @@
           </div>
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/8.png" alt="Derecho matrimonial icono">
+              <img src="images/icons/8.png" alt="abogado divorcios">
                 <div class="caption">
                   <h3>Matrimonial</h3>
                   <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
@@ -275,7 +275,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/11.png" alt="Derecho penal icono">
+              <img src="images/icons/11.png" alt="abogado penal">
                 <div class="caption">
                   <h3>Penal</h3>
                   <p class="card-text">Nuestros abogados le otorgarán <strong>asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
@@ -286,7 +286,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/6.png" alt="Derecho laboral icono">
+              <img src="images/icons/6.png" alt="abogado laboral">
                 <div class="caption">
                   <h3>Laboral</h3>
                   <p class="card-text">Desde el despacho le ayudaremos en sus reclamaciones como la indemnización por despido ante la jurisdicción Social o <strong>la reclamación de lesiones</strong>.</p>
@@ -299,7 +299,7 @@
         <div class="row">
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/12.png" alt="Derecho civil icono">
+              <img src="images/icons/12.png" alt="abogado civil">
                 <div class="caption">
                   <h3>Civil</h3>
                   <p class="card-text">Nuestros abogados son conocedores de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
@@ -310,7 +310,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/10.png" alt="Impagos icono">
+              <img src="images/icons/10.png" alt="impagos">
                 <div class="caption">
                   <h3>Impagos</h3>
                   <p class="card-text">El despacho le garantiza el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
@@ -321,7 +321,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/13.png" alt="Accidentes de Trafico icono">
+              <img src="images/icons/13.png" alt="Accidentes de Trafico">
                 <div class="caption">
                   <h3  style="margin-top: -15px;">Accidentes de Tráfico</h3>
                   <p class="card-text">Despacho especializado durante más de veinte años en <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica durante el procedimiento.</p>
@@ -343,7 +343,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/3.png" alt="Derecho familiar icono">
+              <img src="images/icons/3.png" alt="abogado familiar">
                 <div class="caption">
                   <h3>Familiar</h3>
                   <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia</p>
@@ -357,7 +357,7 @@
       <div class="container" id="contacto">
         <div id= 'before_send_email'>
           <h2 style="color:#373C40;">Contáctanos</h2>
-          <img id="guarch_logo" src="images/logo-min.png" alt="Guarch Abogados logo"/>
+          <img id="guarch_logo" src="images/logo-min.png" alt="logo"/>
           <ul class="lista-contacto">
             <li>Puede contactar con Guarch abogados:</li>
             <li>Realizando una consulta mediante nuestro formulario.</li>
@@ -384,10 +384,10 @@
         <div id="meanwhile_send_email" style="display: none;">
           <h2>Enviando</h2>
           <hr>
-          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" width="50px" height="50px" />
+          <img id="spin_to_win" src="images/spinner.gif" alt="consuluta email" width="50px" height="50px" />
         </div>
         <div id="after_send_email" style="display: none;">
-          <img src="images/logo.png" alt="Guarch Abogados">
+          <img src="images/logo.png" alt="consulta gratuita">
           <h2>Gracias por contactar con nosotros!</h2>
           <hr>
           <h4>Nos pondremos en contacto con usted lo antes posible</h4>
@@ -428,9 +428,9 @@
                 Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
               </li>
               <li>
-                <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
-                <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png"></a>
-                <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png"></a>
+                <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png" alt ='guarch abogados telefono'></a>
+                <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png" alt ='guarch abogados facebook'></a>
+                <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png" alt ='valencia'></a>
               </li>
             </div>
             <div class="SeoHiddenData">
