@@ -85,37 +85,39 @@
       }
     </script>
     <script type="text/javascript">
-    function mail_con_asunto(tema) {
-        $("#asunto_mail").val("Consulta " +tema);
-        $("textarea#consulta_mail").focus();
-    };
-    $("#formulario").submit(function(e) {
-      var url = "mail.php";
+    $( document ).ready(function() {
+      function mail_con_asunto(tema) {
+          $("#asunto_mail").val("Consulta " +tema);
+          $("textarea#consulta_mail").focus();
+      };
+      $("#formulario").submit(function(e) {
+        var url = "mail.php";
 
-      $.ajax({
-              type: "POST",
-              url: url,
-              data: $("#formulario").serialize(),
-              success: function(data)
-              {
-                  $("#before_send_email").hide();
-                  $("#meanwhile_send_email").show();
-                  setTimeout(function () {
-                    $("#meanwhile_send_email").hide();
-                    $("#after_send_email").show();
-                  }, 3000);
-              }
-            });
+        $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#formulario").serialize(),
+                success: function(data)
+                {
+                    $("#before_send_email").hide();
+                    $("#meanwhile_send_email").show();
+                    setTimeout(function () {
+                      $("#meanwhile_send_email").hide();
+                      $("#after_send_email").show();
+                    }, 3000);
+                }
+              });
 
-      e.preventDefault();
-    });
+        e.preventDefault();
+      });
 
-    $('.maps').click(function () {
-        $('.maps iframe').css("pointer-events", "auto");
-    });
+      $('.maps').click(function () {
+          $('.maps iframe').css("pointer-events", "auto");
+      });
 
-    $( ".maps" ).mouseleave(function() {
-      $('.maps iframe').css("pointer-events", "none");
+      $( ".maps" ).mouseleave(function() {
+        $('.maps iframe').css("pointer-events", "none");
+      });
     });
     </script>
   </head>

@@ -85,31 +85,32 @@
       }
     </script>
     <script type="text/javascript">
-    function mail_con_asunto(tema) {
-        $("#asunto_mail").val("Consulta " +tema);
-        $("textarea#consulta_mail").focus();
-    };
-    $("#formulario").submit(function(e) {
-      var url = "mail.php";
-
-      $.ajax({
-              type: "POST",
-              url: url,
-              data: $("#formulario").serialize(),
-              success: function(data)
-              {
-                  $("#before_send_email").hide();
-                  $("#meanwhile_send_email").show();
-                  setTimeout(function () {
-                    $("#meanwhile_send_email").hide();
-                    $("#after_send_email").show();
-                  }, 3000);
-              }
-            });
-
-      e.preventDefault();
-    });
     $( document ).ready(function() {
+      function mail_con_asunto(tema) {
+          $("#asunto_mail").val("Consulta " +tema);
+          $("textarea#consulta_mail").focus();
+      };
+      $("#formulario").submit(function(e) {
+        var url = "mail.php";
+
+        $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#formulario").serialize(),
+                success: function(data)
+                {
+                    $("#before_send_email").hide();
+                    $("#meanwhile_send_email").show();
+                    setTimeout(function () {
+                      $("#meanwhile_send_email").hide();
+                      $("#after_send_email").show();
+                    }, 3000);
+                }
+              });
+
+        e.preventDefault();
+      });
+
       $('.maps').click(function () {
           $('.maps iframe').css("pointer-events", "auto");
       });

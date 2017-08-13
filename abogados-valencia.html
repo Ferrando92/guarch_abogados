@@ -85,40 +85,41 @@
       }
     </script>
     <script type="text/javascript">
-    function mail_con_asunto(tema) {
-        $("#asunto_mail").val("Consulta " +tema);
-        $("textarea#consulta_mail").focus();
-    };
-    $("#formulario").submit(function(e) {
-      var url = "mail.php";
+    $( document ).ready(function() {
+      function mail_con_asunto(tema) {
+          $("#asunto_mail").val("Consulta " +tema);
+          $("textarea#consulta_mail").focus();
+      };
+      $("#formulario").submit(function(e) {
+        var url = "mail.php";
 
-      $.ajax({
-              type: "POST",
-              url: url,
-              data: $("#formulario").serialize(),
-              success: function(data)
-              {
-                  $("#before_send_email").hide();
-                  $("#meanwhile_send_email").show();
-                  setTimeout(function () {
-                    $("#meanwhile_send_email").hide();
-                    $("#after_send_email").show();
-                  }, 3000);
-              }
-            });
+        $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#formulario").serialize(),
+                success: function(data)
+                {
+                    $("#before_send_email").hide();
+                    $("#meanwhile_send_email").show();
+                    setTimeout(function () {
+                      $("#meanwhile_send_email").hide();
+                      $("#after_send_email").show();
+                    }, 3000);
+                }
+              });
 
-      e.preventDefault();
-    });
+        e.preventDefault();
+      });
 
-    $('.maps').click(function () {
-        $('.maps iframe').css("pointer-events", "auto");
-    });
+      $('.maps').click(function () {
+          $('.maps iframe').css("pointer-events", "auto");
+      });
 
-    $( ".maps" ).mouseleave(function() {
-      $('.maps iframe').css("pointer-events", "none");
+      $( ".maps" ).mouseleave(function() {
+        $('.maps iframe').css("pointer-events", "none");
+      });
     });
     </script>
-    <script type="text/javascript"></script>
   </head>
   <body>
     <div style="position:fixed;top:0px;left:0px;width:0;height:0;" id="scrollzipPoint"></div>
@@ -331,37 +332,3 @@
     <!-- /.container -->
   </body>
 </html>
-<script type="text/javascript">
-function mail_con_asunto(tema) {
-    $("#asunto_mail").val("Consulta " +tema);
-    $("textarea#consulta_mail").focus();
-}
-$("#formulario").submit(function(e) {
-  var url = "mail.php";
-
-  $.ajax({
-          type: "POST",
-          url: url,
-          data: $("#formulario").serialize(),
-          success: function(data)
-          {
-              $("#before_send_email").hide();
-              $("#meanwhile_send_email").show();
-              setTimeout(function () {
-                $("#meanwhile_send_email").hide();
-                $("#after_send_email").show();
-              }, 3000);
-          }
-        });
-
-  e.preventDefault();
-});
-
-$('.maps').click(function () {
-    $('.maps iframe').css("pointer-events", "auto");
-});
-
-$( ".maps" ).mouseleave(function() {
-  $('.maps iframe').css("pointer-events", "none");
-});
-</script>
