@@ -151,10 +151,6 @@
               <li class="navItem"><a href="especialidades"><span data-hover="ESPECIALIDADES">ESPECIALIDADES</span></a></li>
               <li class="navItem"><a href="index.php#localizacion"><span data-hover="LOCALIZACIÓN">LOCALIZACIÓN</span></a></li>
               <li class="navItem"><a href="index.php#contacto"><span data-hover="CONTACTO">CONTACTO</span></a></li>
-              <!-- <li><a href="#features"><span data-hover="FEATURES">FEATURES</span></a></li>
-                <li><a href="#gallery"><span data-hover="GALLERY">GALLERY</span></a></li>
-                <li><a href="#team"><span data-hover="TEAM">TEAM</span></a></li>
-                <li><a href="#contact"><span data-hover="CONTACT">CONTACT</span></a></li> -->
             </ul>
           </div>
         </div>
@@ -162,13 +158,6 @@
       <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="5000" id="bs-carousel">
         <!--  Overlay  -->
         <div class="overlay"></div>
-        <!--  Indicators  -->
-        <ol class="carousel-indicators">
-          <li data-target="#bs-carousel" data-slide-to="2" class="active"></li>
-          <li data-target="#bs-carousel" data-slide-to="3" class=""></li>
-          <li data-target="#bs-carousel" data-slide-to="1" class=""></li>
-        </ol>
-        <!--  Wrapper for slides  -->
         <div class="carousel-inner">
           <div class="item slides active">
             <div class="slide-1"></div>
@@ -204,13 +193,16 @@
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
-              <p><strong><span itemprop="name">Guarch Abogados</span></strong> es un despacho de abogados multidisciplinar localizado en el centro de <strong>Valencia</strong>.<br>
-                Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de <strong>accidentes de tráfico</strong>, <strong>divorcios</strong>, <strong>extranjeria</strong>, <strong>reclamaciones de clausula suelo</strong>, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
+              <p><strong><span itemprop="name">Guarch Abogados</span></strong> es un despacho de abogados multidisciplinar localizado en el centro de <strong>Valencia</strong>.
+              <br>
+                Contamos con una amplia experiencia en la <strong>reclamación de lesiones</strong> y daños derivados de <strong>accidentes de tráfico</strong>, <strong>reclamación de deudas</strong> entre empresas y/o particulares, <strong>divorcios</strong>, <strong>extranjería</strong>, <strong>reclamaciones de cláusula</strong> suelo así como en muchas otras ramas del derecho que encontrará en el apartado de <a href='#especialidades'>especialidades</a>.
                 <br>
-                <p> Estaremos encatados de atender y resolver <a href='#contacto'>cualquier consulta o duda que nos quiera plantear</a>.</p>
+                Estaremos encantados de atender y resolver cualquier <a href='#contacto'>cualquier consulta o duda que nos quiera plantear</a> con la mayor rapidez y eficacia posible.
                 <br>
-                <p>También recordarle que le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
-                Por ultimo, darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
+                Somos de los pocos despachos que ofrecemos la <strong>mediación</strong> como un medio de resolución del conflicto diferente y alejado de la vía judicial, así como, la posibilidad de llevar su proceso de <strong>nulidad canónica</strong>, en paralelo con su proceso de <strong><a href="divorcio-valencia"> divorcio </a></strong>, en la jurisdicción eclesiástica.
+                <br>
+                Por último, darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
+                <br>
                 Esperamos poder contar en breve con su confianza.
               </p>
               <a class="btn btn-default btn-lg blog-btn" href="/abogados-valencia">Mas Información</a>
@@ -236,7 +228,7 @@
                 <div class="caption">
                   <h3>Cláusula suelo</h3>
                   <p class="card-text">
-                  Desde el despacho le llevamos su reclamación de la <strong>cláusula suelo</strong> así como todas las clausulas nulas de su hipoteca.<br> Nuestros abogados solo cobrarían si usted cobra</p>
+                  Desde el despacho le llevamos su reclamación de la <strong>cláusula suelo</strong> así como todas las clausulas nulas de su hipoteca.<br> Nuestros abogados solo cobrarían si usted cobra.</p>
                   <a class="btn btn-default btn-md" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
               </div>
             </div>
@@ -246,7 +238,7 @@
               <img src="images/icons/8.png" alt="abogado divorcios">
                 <div class="caption">
                   <h3>Matrimonial</h3>
-                  <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
+                  <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong><a href="divorcio-valencia"> divorcio </a></strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales.</p>
                   <a class="btn btn-default btn-md" href="divorcio-valencia">Mas información</a>
               </div>
             </div>
@@ -325,7 +317,7 @@
               <img src="images/icons/3.png" alt="abogado familiar">
                 <div class="caption">
                   <h3>Familiar</h3>
-                  <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia</p>
+                  <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia.</p>
                   <a class="btn btn-default btn-md" onclick="mail_con_asunto('Familiar')">Consultar</a>
               </div>
             </div>
@@ -353,7 +345,7 @@
               <div class="col-md-4 col-sm-4 grid_4 c1">
                 <input type="text" name="name" class="text" placeholder="Nombre*" required=""/>
                 <input type="email" name="email" class="text" placeholder="Email*" required=""/>
-                <input type="number" name="telephone" class="text" placeholder="Tu telefono (no es obligatorio)"/>
+                <input type="number" name="telephone" class="text" placeholder="Tu teléfono (no es obligatorio)"/>
               </div>
               <div class="clearfix"></div>
               <input type="submit" id="envio_email" class="more_btn" value="Enviar"/>
@@ -407,7 +399,7 @@
                 Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
               </li>
               <li>
-                <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png" alt ='guarch abogados telefono'></a>
+                <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png" alt ='guarch abogados teléfono'></a>
                 <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png" alt ='guarch abogados facebook'></a>
                 <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png" alt ='valencia'></a>
               </li>

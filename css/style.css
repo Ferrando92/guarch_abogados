@@ -337,10 +337,9 @@ nav a:hover, nav a:focus {
 }
 
 .about {
-	padding: 75px 0;
+	padding: 15px 0;
 	font-size:17px;
   color:#032F3E;
-  letter-spacing: 2px;
   text-align: center;
 }
 
