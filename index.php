@@ -142,12 +142,6 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
             <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal">
             GUARCH <span style="font-size:29px; color:#575757">  |  ABOGADOS</span></a></h1>
           </div>
