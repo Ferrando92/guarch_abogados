@@ -1,7 +1,9 @@
 RewriteBase /
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
-RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{3,4}
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ $1.html
+# Turn on the rewrite engine
+RewriteEngine  on
+# If the request doesn't end in .php (Case insensitive) continue processing rules
+RewriteCond %{REQUEST_URI} !\.php$ [NC]
+# If the request doesn't end in a slash continue processing the rules
+RewriteCond %{REQUEST_URI} [^/]$
+# Rewrite the request with a .php extension. L means this is the 'Last' rule
+RewriteRule ^(.*)$ $1.php [L]
