@@ -86,10 +86,6 @@
     </script>
     <script type="text/javascript">
     $( document ).ready(function() {
-      function mail_con_asunto(tema) {
-          $("#asunto_mail").val("Consulta " +tema);
-          $("textarea#consulta_mail").focus();
-      };
       $("#formulario").submit(function(e) {
         var url = "mail.php";
 
@@ -119,6 +115,10 @@
         $('.maps iframe').css("pointer-events", "none");
       });
     });
+    function mail_con_asunto(tema) {
+          $("#asunto_mail").val("Consulta " +tema);
+          $("textarea#consulta_mail").focus();
+      };
     </script>
   </head>
   <body>
@@ -239,12 +239,12 @@
           <form id="formulario" class="contact_form" method="post">
             <div class="message">
               <div class="col-md-8 col-sm-8 grid_8 c1">
-                <input type="text" name="asunto" class="text" placeholder="Asunto*" id="asunto_mail" required=""/>
-                <textarea name="message" placeholder="Escriba aquí su consulta...*" id="consulta_mail" required=""></textarea>
+                <input type="text" name="asunto" class="text" placeholder="Asunto *" id="asunto_mail" required=""/>
+                <textarea name="message" placeholder="Escriba aquí su consulta... *" id="consulta_mail" required=""></textarea>
               </div>
               <div class="col-md-4 col-sm-4 grid_4 c1">
-                <input type="text" name="name" class="text" placeholder="Nombre*" required=""/>
-                <input type="email" name="email" class="text" placeholder="Email*" required=""/>
+                <input type="text" name="name" class="text" placeholder="Nombre *" required=""/>
+                <input type="email" name="email" class="text" placeholder="Email *" required=""/>
                 <input type="number" name="telephone" class="text" placeholder="Tu teléfono (no es obligatorio)"/>
               </div>
               <div class="clearfix"></div>

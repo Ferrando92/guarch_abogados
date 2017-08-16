@@ -86,10 +86,6 @@
     </script>
     <script type="text/javascript">
     $( document ).ready(function() {
-      function mail_con_asunto(tema) {
-          $("#asunto_mail").val("Consulta " +tema);
-          $("textarea#consulta_mail").focus();
-      };
       $("#formulario").submit(function(e) {
         var url = "mail.php";
 
@@ -119,6 +115,10 @@
         $('.maps iframe').css("pointer-events", "none");
       });
     });
+    function mail_con_asunto(tema) {
+          $("#asunto_mail").val("Consulta " +tema);
+          $("textarea#consulta_mail").focus();
+      };
     </script>
   </head>
   <body>
