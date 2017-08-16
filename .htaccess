@@ -1,5 +1,4 @@
 RewriteBase /
-# Turn on the rewrite engine
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !\.php$ [NC]
 RewriteCond %{REQUEST_URI} [^/]$
