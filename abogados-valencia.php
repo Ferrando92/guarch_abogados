@@ -100,7 +100,7 @@
               <p>Nos debemos a nuestros clientes y <b>sus victorias serán nuestras victorias</b>.</p>
               <p>Contamos con un equipo de <strong>abogados especialistas</strong> en todas las ramas del derecho, los cuales buscarán asesorarle para conseguir el mejor resultado.</p>
               <br>
-              <p>Desde nuestra plataforma web <b>atenderemos sus necesidades a la mayor brevedad</b>, ya que somos conscientes de la urgencia que se exige y queremos que los clientes que acudan a nosotros se sienta respaldados cuanto antes.</p>
+              <p>Desde nuestra plataforma web <b>atenderemos sus necesidades a la mayor brevedad</b>, ya que somos conscientes de la urgencia que se exige y queremos que los clientes que acudan a nosotros se sientan respaldados cuanto antes.</p>
               <br>
               <p>Trataremos su <strong>reclamación de lesiones</strong> con peritos médicos de primer nivel, recuperaremos los <strong>impagos</strong> de las deudas que tengan con usted ya sean empresas o particulares, tramitaremos su <strong>divorcio</strong> y todo lo relativo al <strong>derecho de familia</strong> o <strong>derecho matrimonial</strong>, <strong>extranjería</strong>, <strong>herencia</strong> y sucesiones, exigiremos la <strong>cláusula suelo</strong> y cláusulas nulas de su hipoteca.</p>
               <br>
