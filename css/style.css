@@ -2189,8 +2189,11 @@ src: local('OptimusPrincepsSemiBold'), url('OptimusPrincepsSemiBold.woff') forma
 .img-center {
     margin: 0 auto;
 }
+
+/* Blog STUFF. */
+
 .blog-content body{
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 .blog-btn{
 	  color: #6D797F;
@@ -2214,5 +2217,16 @@ src: local('OptimusPrincepsSemiBold'), url('OptimusPrincepsSemiBold.woff') forma
 	padding: 1.2em;
 	list-style-type: none;
 	max-width: 500px;
+	border-radius: 10px;
+}
+
+/* Mini profile abogados. */
+.contact-data{
+	text-align: right;
+}
+.lawyer{
+	background-color: #EBE5D7;
+	padding: 1.2em;
+	margin: 1em;
 	border-radius: 10px;
 }
