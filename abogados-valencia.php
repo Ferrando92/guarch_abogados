@@ -94,15 +94,15 @@
         <div class="row">
             <div class="col-sm-12 blog-turra">
               <h2>Despacho de abogados Valencia</h2>
-              <p><strong>Guarch Abogados</strong> Guarch Abogados es un despacho multidisciplinar ubicado en pleno centro de <strong>Valencia</strong>.</p>
+              <p><strong>Guarch Abogados</strong> es un despacho multidisciplinar ubicado en pleno centro de <strong>Valencia</strong>.</p>
               <br>
               <p>Hacemos nuestras las necesidades de nuestros clientes dando siempre el mejor servicio con rapidez y eficacia.</p>
               <p>Nos debemos a nuestros clientes y <b>sus victorias serán nuestras victorias</b>.</p>
               <p>Contamos con un equipo de <strong>abogados especialistas</strong> en todas las ramas del derecho, los cuales buscarán asesorarle para conseguir el mejor resultado.</p>
               <br>
-              <p>Desde nuestra plataforma web <b>atenderemos sus necesidades a la mayor brevedad</b>, ya que somos conscientes de la urgencia que se exige y queremos que la gente que acuda a nosotros se sienta respaldada cuanto antes.</p>
+              <p>Desde nuestra plataforma web <b>atenderemos sus necesidades a la mayor brevedad</b>, ya que somos conscientes de la urgencia que se exige y queremos que los clientes que acudan a nosotros se sienta respaldados cuanto antes.</p>
               <br>
-              <p>Trataremos su <strong>reclamación de lesiones</strong> con peritos médicos de primer nivel, recuperaremos las deudas de <strong>impagos</strong> que tengan con usted ya sean empresas o particulares, tramitaremos su <strong>divorcio</strong> y todo lo relativo al <strong>derecho de familia</strong> o <strong>derecho matrimonial</strong>, <strong>extranjería</strong>, <strong>herencia</strong> y sucesiones, exigiremos la <strong>cláusula suelo</strong> y cláusulas nulas de su hipoteca.</p>
+              <p>Trataremos su <strong>reclamación de lesiones</strong> con peritos médicos de primer nivel, recuperaremos los <strong>impagos</strong> de las deudas que tengan con usted ya sean empresas o particulares, tramitaremos su <strong>divorcio</strong> y todo lo relativo al <strong>derecho de familia</strong> o <strong>derecho matrimonial</strong>, <strong>extranjería</strong>, <strong>herencia</strong> y sucesiones, exigiremos la <strong>cláusula suelo</strong> y cláusulas nulas de su hipoteca.</p>
               <br>
               <p>Somos de los pocos que ofrecemos la <strong>mediación</strong> como un medio de resolución del conflicto diferente y alejado de la vía judicial. En la mediación las partes deciden.</p>
               <p>También ofrecemos como materia especial la posibilidad de llevar su proceso de <strong>nulidad canónica</strong>, en paralelo o no con su proceso de divorcio civil, ante la jurisdicción eclesiástica. La obtención de la <strong>nulidad canónica</strong> le permitirá volver a contraer matrimonio por la Iglesia.</p>

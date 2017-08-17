@@ -104,7 +104,7 @@
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style="padding:8px;">
             <div itemprop="description">
-              <p><strong><span itemprop="name">Guarch Abogados</span></strong> es un despacho de abogados multidisciplinar localizado en el <b> centro de <strong>Valencia</strong></b>.
+              <p><strong><span itemprop="name">Guarch Abogados</span></strong> es un despacho multidisciplinar localizado en el <b> centro de <strong>Valencia</strong></b>.
               <br>
                 Contamos con <strong>amplia experiencia</strong> en la <strong>reclamación de lesiones</strong>, teniendo contacto con peritos médicos de primer nivel, en la <strong>reclamación de deudas</strong> entre empresas y/o particulares, <strong>divorcios</strong> y todo lo relativo al <strong>derecho de familia-matrimonial</strong>, <strong>extranjería</strong>, <strong>herencia</strong> y sucesiones, <strong>reclamación de cláusula suelo</strong> y cláusulas nulas de su hipoteca, así como en muchas otras ramas del derecho que encontrará en el apartado de <a href='#especialidades'>especialidades</a> de nuestra página web.
                 <br>
